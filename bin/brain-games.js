@@ -1,8 +1,4 @@
-import readlineSync from 'readline-sync'
+import { greeting } from '../src/cli.js'
 
-
-console.log('Welcome to the Brain Games!');
-
-
-const name = readlineSync.question('what your name? ');
-console.log(`Hello, ${name}!`)
+console.log('Welcome to the Brain Games!')
+greeting()

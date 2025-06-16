@@ -1,3 +1,4 @@
-import runPrimeGame from '../src/games/prime.js';
+import runGame from '../src/index.js'
+import { generateRound, rules } from '../src/games/prime.js'
 
-runPrimeGame();
+runGame(rules, generateRound)

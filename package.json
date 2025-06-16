@@ -1,12 +1,29 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "type": "module",
-  "description": "[![Actions Status](https://github.com/maximys213/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/maximys213/frontend-project-44/actions)",
+  "description": "[![Actions Status](https://github.com/deilpreint/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/deilpreint/frontend-project-44/actions) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=deilpreint_frontend-project-44&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=deilpreint_frontend-project-44) [![Maintainability](https://api.codeclimate.com/v1/badges/3e0dc4d7df8cb6f616a6/maintainability)](https://codeclimate.com/github/deilpreint/frontend-project-44/maintainability) ## Демонстрация игры \"чётное-нечётное\" [![asciicast](https://asciinema.org/connect/dbfbae3f-edcd-4b4d-8d98-18c63874e2f0)](https://asciinema.org/connect/dbfbae3f-edcd-4b4d-8d98-18c63874e2f0)",
   "main": "index.js",
+  "bin": {
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js",
+    "brain-calc": "bin/brain-calc.js",
+    "brain-gcd": "./bin/brain-gcd.js",
+    "brain-progression": "bin/brain-progression.js",
+    "brain-prime": "bin/brain-prime.js"
+  },
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@stylistic/eslint-plugin": "^4.2.0",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.27.0",
+    "eslint": "^9.27.0",
+    "globals": "^16.1.0"
+  }
 }

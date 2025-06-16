@@ -1,5 +1,4 @@
-import askName from '../src/cli.js';
-import runEvenGame from '../src/games/even.js';
+import runGame from '../src/index.js'
+import { generateRound, rules } from '../src/games/even.js'
 
-const userName = askName();
-runEvenGame(userName);
+runGame(rules, generateRound)
